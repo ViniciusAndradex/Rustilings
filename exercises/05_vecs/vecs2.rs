@@ -44,5 +44,6 @@ mod tests {
         let ans = vec_map(&v);
 
         assert_eq!(ans, v.iter().map(|x| x * 2).collect::<Vec<i32>>());
+
     }
 }
